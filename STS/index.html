@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1f8fb">
+  <title>STS | Science, Technology & Society</title>
+  <style>
+    :root{--ink:#34a6df;--muted:#6a8997;--cream:#f1f8fb;--paper:#ffffff;--green:#236e9c;--lime:#d5ecfa;--line:#d7e5ed;--orange:#7ab8dc;--serif:Georgia,'Times New Roman',serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);line-height:1.6}a{color:inherit;text-decoration:none}.site-header{height:82px;display:flex;align-items:center;justify-content:space-between;max-width:1160px;margin:auto;padding:0 28px}.brand{display:flex;align-items:center;gap:11px;font-weight:750;letter-spacing:-.03em}.brand-mark{width:36px;height:36px;border-radius:50%;background:var(--green);display:grid;place-items:center;color:white;font-family:var(--serif);font-size:20px}.brand small{display:block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-top:-3px}.nav{display:flex;gap:8px;background:#e3eff6;padding:5px;border-radius:999px}.nav a{font-size:13px;font-weight:650;padding:9px 19px;border-radius:999px;color:#536979;transition:.2s}.nav a:hover,.nav a[aria-current="page"]{background:var(--green);color:white}.hero{max-width:1160px;margin:0 auto;padding:46px 28px 88px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:52px;min-height:590px}.eyebrow{font-size:11px;font-weight:750;letter-spacing:.19em;text-transform:uppercase;color:var(--green);display:flex;align-items:center;gap:10px}.eyebrow:before{content:'';height:1px;width:28px;background:var(--green)}h1,h2,h3,p{margin-top:0}h1{font-family:var(--serif);font-size:clamp(45px,6vw,72px);font-weight:400;letter-spacing:-.055em;line-height:1.04;margin:20px 0 19px}h1 em{color:var(--green);font-weight:400}.intro{max-width:460px;color:#5b7180;font-size:16px;line-height:1.8;margin-bottom:28px}.cta{display:inline-flex;align-items:center;gap:14px;background:var(--green);color:white;border-radius:999px;padding:13px 19px;font-weight:650;font-size:13px;transition:transform .2s,background .2s}.cta:hover{background:#174f79;transform:translateY(-2px)}.cta span{font-size:18px;line-height:0}.art-wrap{position:relative;justify-self:center;width:min(100%,420px);aspect-ratio:1/1.07;display:grid;place-items:center}.art-backdrop{position:absolute;inset:7% 3% 5%;border-radius:48% 48% 42% 42% / 39% 39% 52% 52%;background:#dceef5;transform:rotate(3deg)}.portrait-frame{position:relative;width:78%;height:78%;overflow:hidden;border-radius:50%;border:8px solid var(--paper);transform:scale(1.18);filter:drop-shadow(0 20px 20px #244b6624)}.portrait{width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.2)}.art-note{position:absolute;right:-3%;bottom:8%;background:var(--paper);padding:13px 17px;border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 35px #1b476013;font-family:var(--serif);font-size:15px;color:var(--green);transform:rotate(-3deg)}.art-note b{display:block;font-family:var(--sans);font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#7896a3;margin-bottom:3px}.student-card{text-align:center;grid-column:1/-1;margin-top:-39px}.student-card h2{font-family:var(--serif);font-weight:400;font-size:27px;letter-spacing:-.03em;margin:0 0 3px}.student-card p{color:var(--muted);font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:0}.scroll-cue{display:flex;justify-content:center;align-items:center;gap:10px;color:#748a99;font-size:10px;letter-spacing:.16em;text-transform:uppercase;padding-bottom:27px}.scroll-cue i{width:1px;height:30px;background:#b4ccda}.about{background:var(--paper);border-top:1px solid var(--line);padding:92px 28px 100px}.section-inner{max-width:1050px;margin:auto}.section-heading{max-width:670px;margin-bottom:40px}.section-heading h2{font-family:var(--serif);font-weight:400;font-size:clamp(36px,5vw,55px);line-height:1.08;letter-spacing:-.045em;margin:15px 0}.section-heading>p{color:var(--muted);max-width:600px;font-size:15px;line-height:1.8}.lesson-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:20px}.lesson-main{background:var(--green);color:white;padding:34px 35px;border-radius:22px;min-height:290px;position:relative;overflow:hidden}.lesson-number{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:#d5ecfa}.lesson-main h3{font-family:var(--serif);font-size:32px;font-weight:400;line-height:1.13;max-width:410px;margin:15px 0}.lesson-main p{font-size:14px;line-height:1.8;color:#dcecf5;max-width:470px;margin-bottom:0;text-align:justify}.lesson-side{display:grid;gap:14px}.topic{background:#f3f9fc;border:1px solid #dce9ef;border-radius:18px;padding:21px 23px;display:grid;grid-template-columns:40px 1fr;gap:15px;align-items:start}.topic-icon{width:38px;height:38px;background:#ddecf3;color:var(--green);border-radius:12px;display:grid;place-items:center;font-size:18px}.topic h3{font-size:14px;margin:1px 0 5px;letter-spacing:-.01em}.topic p{font-size:12px;line-height:1.65;color:#657d8a;margin:0}.reflection{margin-top:20px;border:1px solid var(--line);border-radius:17px;padding:19px 23px;display:flex;align-items:flex-start;gap:13px;background:#fff}.reflection span{font-size:19px}.reflection p{margin:0;font-size:13px;color:#536d7c;line-height:1.7}.reflection strong{color:var(--ink)}footer{border-top:1px solid var(--line);padding:22px 28px;text-align:center;font-size:11px;color:#738998;letter-spacing:.04em}.mobile-hint{display:none}
+    @media(max-width:760px){.site-header{height:70px;padding:0 20px}.hero{grid-template-columns:1fr;gap:20px;padding:53px 23px 64px;text-align:center;min-height:0}.eyebrow{justify-content:center}h1{font-size:clamp(48px,12vw,65px)}.intro{margin-left:auto;margin-right:auto}.art-wrap{grid-row:2;width:min(84vw,360px);margin:4px auto 0}.student-card{grid-row:3;margin-top:-12px}.hero-copy .cta{margin:auto}.scroll-cue{padding-bottom:23px}.about{padding:68px 21px 75px}.lesson-grid{grid-template-columns:1fr}.lesson-main{min-height:250px;padding:28px}.section-heading{margin-bottom:27px}.brand{font-size:14px}.brand small{font-size:9px}.nav a{padding:8px 13px;font-size:12px}.art-note{right:-1%}}
+    @media(max-width:390px){.site-header{padding:0 14px}.nav{gap:1px}.nav a{padding:8px 11px}.brand-mark{width:32px;height:32px}.brand{gap:8px}.art-note{font-size:13px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+    .student-card h2,.student-card p,.art-note,.art-note b{color:#236e9c}
+      .topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
+    .study-card{background:#f3f9fc;border:1px solid #d7e5ed;border-radius:18px;padding:24px}
+    .study-card h3{font-family:var(--serif);font-size:24px;line-height:1.15;font-weight:400;margin:12px 0 10px}
+    .study-card p,.study-card li{font-size:13px;line-height:1.75;color:#536d7c}
+    .study-card p{margin-bottom:0}
+    .study-card .card-note{margin-top:12px;padding-top:12px;border-top:1px solid #d7e5ed}
+    .study-card ul{padding-left:18px;margin:8px 0 0}
+    .study-card li+li{margin-top:4px}
+    @media(max-width:760px){.topic-grid{grid-template-columns:1fr}}
+    .study-card{background:#ffffff;border-color:#d4e2eb;box-shadow:0 8px 24px rgba(25,55,70,.06)}
+    .study-card .lesson-number{color:#1e5f86;font-weight:750}
+    .study-card h3{color:#17384e}
+    .study-card p,.study-card li{color:#3e5868}
+    .study-card .card-note{border-color:#d4e2eb}      .video-link{display:inline-flex;align-items:center;gap:7px;margin-top:15px;padding:9px 13px;border:1px solid #c8dce8;border-radius:999px;background:#f3f9fc;color:#155c84;font-size:12px;font-weight:700;line-height:1.2;transition:background .18s,border-color .18s,transform .18s}
+    .video-link:hover{background:#e3f1f8;border-color:#9fc5db;transform:translateY(-1px)}
+    .video-link:focus-visible{outline:3px solid #7ab8dc;outline-offset:3px}
+  .lesson-main h3,.lesson-main p{max-width:none}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="STS home"><span class="brand-mark">S</span><small>Science · Technology · Society</small></a>
+    <nav class="nav" aria-label="Main navigation"><a href="#home" aria-current="page">Home</a><a href="#about">About STS</a></nav>
+  </header>
+  <main>
+    <section class="hero" id="home" aria-labelledby="welcome-title">
+      <div class="hero-copy">
+        <div class="eyebrow">A student learning space</div>
+        <h1 id="welcome-title">Understanding our world, <em>together.</em></h1>
+        <p class="intro">Welcome to my learning space for Science, Technology, and Society. Explore how discoveries and inventions shape the way we live—and how our choices shape what comes next.</p>
+        <a class="cta" href="#about">Explore the STS lesson <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="art-wrap" role="img" aria-label="Illustration of a student reading with a globe and leaves">
+        <div class="art-backdrop"></div>
+        <div class="portrait-frame"><img class="portrait" src="kirt.jpg" alt="Portrait of Kirsten Brynnt A. Casemero"></div>
+        <div class="art-note"><b>Kirtsten Bryntt A. Casemero</b>Bachelor of Science in Accountancy</div>
+      </div>
+    </section>
+    <section class="about" id="about" aria-labelledby="about-title">
+  <div class="section-inner">
+    <div class="section-heading">
+      <div class="eyebrow">Course topics</div>
+      <h2 id="about-title">STS connects innovation with everyday life</h2>
+      <p>Science, Technology, and Society looks at how knowledge and inventions shape communities, and how human needs, public choices, ethics, and access shape technology in return. Explore the topics from our course materials below.</p>
+    </div>
+    <article class="lesson-main">
+      <div class="lesson-number">The big picture</div>
+      <h3>Science builds knowledge. Technology puts it to work.</h3>
+      <p>Society influences which questions researchers study, what problems receive attention, and which technologies are designed and funded. These priorities can reflect public needs, cultural values, business interests, government policies, and available resources. In turn, scientific discoveries and new tools can reshape health care, education, work, communication, the economy, and the environment. These changes may improve daily life, but their benefits and costs are not always shared equally. Some communities may face limited access, job disruption, privacy concerns, or environmental harm. STS helps us examine these effects, ask who benefits and who is left out, and consider what ethical responsibilities should guide the development and use of technology.</p>
+    </article>
+    <div class="topic-grid">
+      <article class="study-card">
+        <div class="lesson-number">01 · Nation building</div>
+        <h3>Building a stronger Philippines</h3>
+        <p>Research helps explain local needs; technology applies that knowledge in areas such as health, agriculture, education, transport, and communication. Public policy and investment affect which ideas reach people.</p>
+        <p class="card-note">Consider the role of DOST, science scholarships, technology transfer, and startup support—and challenges such as limited research funding, brain drain, and unequal access.</p>
+        <a class="video-link" href="https://www.youtube.com/watch?v=1xFJCHcE6Sw" target="_blank" rel="noopener noreferrer">▶ Watch DOST video</a>
+      </article>
+      <article class="study-card">
+        <div class="lesson-number">02 · Information age</div>
+        <h3>Living in an information society</h3>
+        <p>Digital networks make it possible to create, find, share, and use information quickly. They open new ways to learn and communicate, while raising questions about access, the digital divide, and how people use information responsibly.</p>
+        <a class="video-link" href="https://www.youtube.com/watch?v=Mx_BqLrltGs" target="_blank" rel="noopener noreferrer">▶ Watch UNESCO video</a>
+      </article>
+      <article class="study-card">
+        <div class="lesson-number">03 · Technology and humanity</div>
+        <h3>Human dignity and rights</h3>
+        <p>The Universal Declaration of Human Rights centers dignity and equal rights. When technology changes social life, ask whether its design and use protect people, treat them fairly, and support their well-being.</p>
+        <a class="video-link" href="https://www.youtube.com/watch?v=PXZanRQf3HM" target="_blank" rel="noopener noreferrer">▶ Watch UNESCO video</a>
+      </article>
+      <article class="study-card">
+        <div class="lesson-number">04 · Gene therapy</div>
+        <h3>Medicine, possibility, and ethics</h3>
+        <p>Gene therapy may replace or switch off a faulty gene, or add a gene to help fight disease. Somatic cell therapy affects the patient; changes to germ cells can be inherited.</p>
+        <p class="card-note">Potential benefits come with questions about safety, lasting effects, cost and access, how society defines a disorder, and whether gene editing should be used for enhancement.</p>
+        <a class="video-link" href="https://www.youtube.com/watch?v=GbJasFgJkLg" target="_blank" rel="noopener noreferrer">▶ Watch FDA video</a>
+      </article>
+      <article class="study-card">
+        <div class="lesson-number">05 · Industrial revolutions</div>
+        <h3>Four waves of change</h3>
+        <ul>
+          <li><strong>IR 1:</strong> steam power and mechanized production</li>
+          <li><strong>IR 2:</strong> electricity and mass production</li>
+          <li><strong>IR 3:</strong> computers, the internet, and automation</li>
+          <li><strong>IR 4:</strong> artificial intelligence, connected devices, and data</li>
+        </ul>
+        <p class="card-note">Each wave changed jobs and daily life, while creating new effects on the environment. Think about who gains, who must adapt, and how innovation can be sustainable.</p>
+        <a class="video-link" href="https://www.youtube.com/watch?v=zhL5DCizj5c" target="_blank" rel="noopener noreferrer">▶ Watch Crash Course video</a>
+      </article>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer>Made for learning · Science, Technology & Society</footer>
+  <script>
+    const links=[...document.querySelectorAll('.nav a')];
+    const sections=links.map(link=>document.querySelector(link.getAttribute('href')));
+    const observer=new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting){links.forEach(link=>link.toggleAttribute('aria-current',link.hash==='#'+entry.target.id));links.forEach(link=>{if(link.hash==='#'+entry.target.id)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current')})}}},{rootMargin:'-35% 0px -55% 0px'});
+    sections.forEach(section=>section&&observer.observe(section));
+  </script>
+</body>
+</html>
